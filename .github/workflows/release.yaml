@@ -11,8 +11,6 @@ jobs:
     name: release linux/amd64
     runs-on: neptune
     steps:
-      - name: Dependency
-        run: "sudo apt install libx11-dev -y"
       - uses: actions/checkout@v4
       - uses: wangyoucao577/go-release-action@v1
         with:
