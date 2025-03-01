@@ -9,7 +9,7 @@ Uses OpenAI text-to-speech API to speak the contents of your clipboard through y
 
 ## Installation
 ```bash
-go install https://github.com/jorkle/clipboard-tts@latest
+go install github.com/jorkle/clipboard-tts@latest
 ```
 
 ## Instructions
